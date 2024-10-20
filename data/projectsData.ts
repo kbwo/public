@@ -6,14 +6,12 @@ interface Project {
 }
 
 const projectsData: Project[] = [
-  // {
-  //   title: 'A Search Engine',
-  //   description: `What if you could look up any information in the world? Webpages, images, videos
-  //   and more. Google has many features to help you find exactly what you're looking
-  //   for.`,
-  //   imgSrc: '/static/images/google.png',
-  //   href: 'https://www.google.com',
-  // },
+  {
+    title: 'Testing Language Server',
+    description: `Language server for real-time testing diagnostics`,
+    imgSrc: '',
+    href: 'https://github.com/kbwo/testing-language-server',
+  },
 ]
 
 export default projectsData
