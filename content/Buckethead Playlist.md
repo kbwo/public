@@ -1,0 +1,44 @@
+[[Buckethead]]の好きな曲リスト
+曲名をあまり覚えていないので音楽と曲名が一致し次第追記していく
+
+  - Factory T
+  - Redeem team
+  - View Masters
+  - Claymation Courtyard
+  - Osirion
+  - Toys R Us Tamtrums
+  - The Kids That Rain Lightning
+  - Eagles Flight
+  - N Hold me forever
+  - Trails of Moondust
+  - Ghost Host
+  - Valley of the Fog
+  - Abominable Snow Scalp
+  - Floor 13
+  - Trace Candle
+  - 11111111
+　Fourneau Cosmique
+  - N
+  - A Long Days Walk
+  - Leave the Light On
+  - Crack the Sky
+  - Beyond the Windmill
+  - Statue For Bootsy
+  - Calery
+  - Thermal Exhaust Port
+  - Gory Head Stamp
+  - Skeleton Keys
+  - Siege Engine
+  - King James
+  - Look Up There
+  - Disintegration Mirros
+  - Twilight Constrictor
+  - The Coasts of Claude
+  - The Bellman
+  - Mount Shasta
+  - Far 5
+  - Low Rolling Hills
+  - sentinel hill
+  - Gramercy Park
+  - FBotl 1
+  - Echo
