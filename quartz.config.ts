@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import * as Component from "./quartz/components"
 
 /**
  * Quartz 4 Configuration
@@ -77,7 +78,21 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage(),
+      Plugin.ContentPage({
+        afterBody: [
+          Component.ConditionalRender({
+            component: Component.RecentNotes({
+              title: "Recents",
+              limit: 100,
+              showTags: true,
+            }),
+            condition: (props) => {
+              // Display only on index page
+              return props.fileData.frontmatter?.showRecentNotes === true
+            },
+          }),
+        ],
+      }),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({

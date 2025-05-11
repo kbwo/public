@@ -649,15 +649,15 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     }
   }
 
-  async function shortcutHandler(e: HTMLElementEventMap["keydown"]) {
-    if (e.key === "g" && (e.ctrlKey || e.metaKey) && !e.shiftKey) {
-      e.preventDefault()
-      const anyGlobalGraphOpen = containers.some((container) =>
-        container.classList.contains("active"),
-      )
-      anyGlobalGraphOpen ? hideGlobalGraph() : renderGlobalGraph()
-    }
-  }
+  // async function shortcutHandler(e: HTMLElementEventMap["keydown"]) {
+  //   if (e.key === "g" && (e.ctrlKey || e.metaKey) && !e.shiftKey) {
+  //     e.preventDefault()
+  //     const anyGlobalGraphOpen = containers.some((container) =>
+  //       container.classList.contains("active"),
+  //     )
+  //     anyGlobalGraphOpen ? hideGlobalGraph() : renderGlobalGraph()
+  //   }
+  // }
 
   const containerIcons = document.getElementsByClassName("global-graph-icon")
   Array.from(containerIcons).forEach((icon) => {
@@ -665,9 +665,9 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     window.addCleanup(() => icon.removeEventListener("click", renderGlobalGraph))
   })
 
-  document.addEventListener("keydown", shortcutHandler)
+  // document.addEventListener("keydown", shortcutHandler)
   window.addCleanup(() => {
-    document.removeEventListener("keydown", shortcutHandler)
+    // document.removeEventListener("keydown", shortcutHandler)
     cleanupLocalGraphs()
     cleanupGlobalGraphs()
   })
