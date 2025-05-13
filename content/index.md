@@ -11,4 +11,4 @@ showRecentNotes: true
 
 日本語入力が嫌いなので拙くても英語で書いたりするときもあります。
 
-[[Cosense (旧Scrapbox)]]から移行中...
+[[Cosense (旧Scrapbox)]]から移行中。2025年5月に追加する記事はかつて書いていたCosenseの記事の転載が多くなるると思います。
